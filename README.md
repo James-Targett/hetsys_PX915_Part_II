@@ -48,12 +48,6 @@ In the terminal:
 * Type `unzip folder name` to unzip a folder
   * replace `folder name` with the actual name of your zip folder
 
-> **Note:**  
-> It will be good practice to:
-> - Create templates for different tasks  
-> - Give files simple and generic names, e.g. `job.sh`, `1.xyz`, etc  
-> - Avoid using CAPITAL letters in file names  
-
 ## Notepad++ Tips and Tricks  
 
 Here are some more [tips and tricks](https://www.cathrinewilhelmsen.net/series/notepad-tips-tricks/) to help you to use Notepad++ more effectively and efficiently.  
