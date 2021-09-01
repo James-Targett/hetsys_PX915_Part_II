@@ -20,28 +20,38 @@ Please also make sure to have an active SCRTP Linux Desktop account.
 > * All the inputs files will **ONLY** work in Avon.  
 > * **NEVER** run these calculations in Godzilla and Orac  
 
-### How to submit a job in Avon  
+## How to submit a job in Avon  
 
-Right click the mouse in the blank space in the Avon and then click "copy path to clipboard"  
-<img src="https://i.imgur.com/EBvFNpo.jpg" width="200">  
+Please drag and drop all the meta and para folder from your own drive to Avon to complete the upload process. 
+
+<img src="https://i.imgur.com/cVigUuu.png" width="600">  
+
+As an example, in Avon, navigate yourself into meta's AB folder (e.g. Avon -> meta -> AB). Then, right click the mouse in the blank space in Avon and click "copy path to clipboard"  
+<img src="https://i.imgur.com/PU4cs3o.png" width="200">  
 
 Click "Open session in PuTTY" to open the terminal  
-<img src="https://i.imgur.com/KU6wLCi.jpg" width="400">  
+<img src="https://i.imgur.com/CdMtHui.png" width="200">  
 
 In the terminal:  
 
 * Type in your password to login  
+    <img src="https://i.imgur.com/kBZlKfL.png" width="600">  
 * Type `cd path` to go to the correct directory  
   * replace`path` with the actual path you have copied  
 * Type `sbatch job.sh` to submit a new job  
-  * the submission file can be named as anything, it could also be names as `job.sh` or `sub.sh`  
-  * you just need to make sure you are submitting a ".sh" file  
-
-### Other useful terminal commands  
-
-* Type `ls` or `ls -l` to see the list of items in the current directory
 * Type `squeue -u username`  to check job status
   * replace `username` with your own SCRTP username 
+    <img src="https://i.imgur.com/HPRo2OO.png" width="600">  
+
+Repeat the same process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder. 
+
+Open jt.out and locate the total energy of the system (should be around line 2700)  
+
+<img src="https://i.imgur.com/GXfQkTd.png" width="300">  
+
+## Other useful terminal commands  
+
+* Type `ls` or `ls -l` to see the list of items in the current directory
 * Type `squeue` to check all the jobs
 * Type `scancel job number` to cancel a job
   * the job number could be found in the job status
@@ -52,3 +62,5 @@ In the terminal:
 
 Here are some more [tips and tricks](https://www.cathrinewilhelmsen.net/series/notepad-tips-tricks/) to help you to use Notepad++ more effectively and efficiently.  
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
