@@ -6,7 +6,7 @@
 * [Submit Jobs in Avon](Submit-Jobs-in-Avon)  
 * [Calculate Binding Energy](Calculate-Binding-Energy)  
 * [Other Useful Terminal Commands](Other-Useful-Terminal-Commands)  
-* [Notepad++ Tips and Tricks](Notepad++-Tips-and-Tricks)  
+* [Notepad++ Tips and Tricks](Notepad-Tips-and-Tricks)  
 
 ## Required Software  
 
