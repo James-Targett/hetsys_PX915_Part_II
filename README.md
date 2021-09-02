@@ -28,7 +28,7 @@ Please also make sure to have an active SCRTP Linux Desktop account.
 > * All the inputs files will **ONLY** work in Avon.  
 > * **NEVER** run these calculations in Godzilla and Orac  
 
-[Back to Contents](#Contents)
+[Back to Contents](#Contents)  
 
 ## Submit Jobs in Avon  
 
@@ -56,11 +56,15 @@ In the terminal:
 
 Repeat the same job submission process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder.  
 
+[Back to Contents](#Contents)  
+
 ## Calculate Binding Energy  
 
 When all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700)  
 
 <img src="https://i.imgur.com/GXfQkTd.png" width="300">  
+
+[Back to Contents](#Contents)  
 
 ## Other Useful Terminal Commands  
 
@@ -71,9 +75,13 @@ When all the calculations are completed, locate "jt.out" file. Then, open "jt.ou
 * Type `unzip folder name` to unzip a folder
   * replace `folder name` with the actual name of your zip folder
 
+[Back to Contents](#Contents)  
+
 ## Notepad++ Tips and Tricks  
 
 Here are some more [tips and tricks](https://www.cathrinewilhelmsen.net/series/notepad-tips-tricks/) to help you to use Notepad++ more effectively and efficiently.  
+
+[Back to Contents](#Contents)  
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
