@@ -68,7 +68,9 @@ Take meta's AB folder as an example again, when all the calculations are complet
 
 All the $E_{AB}$, $E_{A}$ and $E_{B}$ for both meta and para could be obtained by following the same procedures.  
 
-You now could use Equation (1) to calculate the binding energy <img src="https://render.githubusercontent.com/render/math?math=\Delta E">:  
+You now could use Equation (1) to calculate the binding energy <img src="https://render.githubusercontent.com/render/math?math=\Delta E">
+![equation](https://latex.codecogs.com/gif.latex?%5CDelta%20E)
+:  
 
 \begin{equation}
 \tag{1}
@@ -113,6 +115,3 @@ Please include this line of code at the end of your Markdown files for better re
 ```
 
 [Back to Contents](#Contents)  
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
