@@ -6,7 +6,9 @@
 * [Submit Jobs in Avon](#Submit-Jobs-in-Avon)  
 * [Calculate Binding Energy](#Calculate-Binding-Energy)  
 * [Other Useful Terminal Commands](#Other-Useful-Terminal-Commands)  
-* [Notepad++ Tips and Tricks](#Notepad-Tips-and-Tricks)  
+* [Tips and Tricks](#Tips-and-Tricks)  
+  * [Notepad++](#Notepad)
+  * [Converting Markdown File to PDF File](#Converting-Markdown-File-to-PDF-File)  
 
 ## Required Software  
 
@@ -60,28 +62,54 @@ Repeat the same job submission process for meta's A folder, meta's B folder, par
 
 ## Calculate Binding Energy  
 
-When all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700)  
+Take meta's AB folder as an example again, when all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700). This energy value is the $E_{AB}$.  
 
 <img src="https://i.imgur.com/GXfQkTd.png" width="300">  
+
+All the $E_{AB}$, $E_{A}$ and $E_{B}$ for both meta and para could be obtained by following the same procedures.  
+
+You now could use Equation (1) to calculate the binding energy $\Delta E$:  
+
+\begin{equation}
+\tag{1}
+\Delta E=E_{AB}-E_{A}-E_{B}
+\end{equation}  
+
+The expected values are:  
+
+
+| Molecule | $E_{AB}$ | $E_{AB}$ | $E_{AB}$ | $\Delta E$ |
+|:--------:|:--------:|:--------:|:--------:|:----------:|
+|meta|-87905.202018|-8375.39313|-79528.362568|-1.44632|
+|para|-87905.205948|-8375.426394|-79528.361907|-1.41765|
+
 
 [Back to Contents](#Contents)  
 
 ## Other Useful Terminal Commands  
 
-* Type `ls` or `ls -l` to see the list of items in the current directory
-* Type `squeue` to check all the jobs
-* Type `scancel job number` to cancel a job
-  * the job number could be found in the job status
-* Type `unzip folder name` to unzip a folder
-  * replace `folder name` with the actual name of your zip folder
+* Type `ls` or `ls -l` to see the list of items in the current directory  
+* Type `squeue` to check all the jobs  
+* Type `scancel job number` to cancel a job  
+  * the job number could be found in the job status  
+* Type `unzip folder name` to unzip a folder  
+  * replace `folder name` with the actual name of your zip folder  
 
 [Back to Contents](#Contents)  
 
-## Notepad++ Tips and Tricks  
+## Tips and Tricks  
+
+### Notepad++  
 
 Here are some more [tips and tricks](https://www.cathrinewilhelmsen.net/series/notepad-tips-tricks/) to help you to use Notepad++ more effectively and efficiently.  
 
-[Back to Contents](#Contents)  
+### Converting Markdown File to PDF File  
 
+Please include this line of code at the end of your Markdown files for better rendered LaTeX equations when converting them to PDF files.  
+
+```
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
+```
+
+[Back to Contents](#Contents)  
