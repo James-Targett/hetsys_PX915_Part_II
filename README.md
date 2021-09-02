@@ -73,7 +73,7 @@ You now could use ![](https://latex.codecogs.com/gif.latex?%5CDelta%20E%3DE_%7BA
 The expected values are:  
 
 
-| Molecule | $E_{AB}$ | $E_{AB}$ | $E_{AB}$ | $\Delta E$ |
+|Molecule|![](https://latex.codecogs.com/gif.latex?E_%7BAB%7D)|![](https://latex.codecogs.com/gif.latex?E_%7BA%7D)|![](https://latex.codecogs.com/gif.latex?E_%7BB%7D)|![](https://latex.codecogs.com/gif.latex?%5CDelta%20E)|
 |:--------:|:--------:|:--------:|:--------:|:----------:|
 |meta|-87905.202018|-8375.39313|-79528.362568|-1.44632|
 |para|-87905.205948|-8375.426394|-79528.361907|-1.41765|
