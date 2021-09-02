@@ -1,6 +1,14 @@
-# hetsys_PX915_Part_II
+# hetsys_PX915_Part_II  
 
-## Software Required  
+## Contents
+
+* [Required Software](Required-Software)  
+* [Submit Jobs in Avon](Submit-Jobs-in-Avon)  
+* [Calculate Binding Energy](Calculate-Binding-Energy)  
+* [Other Useful Terminal Commands](Other-Useful-Terminal-Commands)  
+* [Notepad++ Tips and Tricks](Notepad++-Tips-and-Tricks)  
+
+## Required Software  
 
 All the main software used in the Device Modelling Group can be found in [Computational Tools and Links](https://warwick.ac.uk/fac/sci/eng/research/grouplist/sensorsanddevices/nanolab/internal/tools/) (only accessible to internal group members).  
 
@@ -11,7 +19,7 @@ If you are an external group member, please download these two desktop applicati
 - [Winscp](https://winscp.net/eng/download.php)  
   - use Winscp to submit calculations on SCRTP hardware  
 
-Please also make sure to have an active SCRTP Linux Desktop account.   
+Please also make sure to have an active SCRTP Linux Desktop account.  
 
 * If you **DO NOT HAVE** an active SCRTP Linux Desktop account, please follow the instructions in the [Getting Started - SCRTP Linux](https://warwick.ac.uk/research/rtp/sc/desktop/gettingstarted)  to request a new account. Typically, it will take a couple of days to get a new account.  
 * If you **HAVE** an active SCRTP Linux Desktop account, then please visit [Register for HPC access](https://warwick.ac.uk/research/rtp/sc/hpc/register) and register access for Avon.  
@@ -20,9 +28,9 @@ Please also make sure to have an active SCRTP Linux Desktop account.
 > * All the inputs files will **ONLY** work in Avon.  
 > * **NEVER** run these calculations in Godzilla and Orac  
 
-## How to submit a job in Avon  
+## Submit Jobs in Avon  
 
-Please drag and drop all the meta and para folder from your own drive to Avon to complete the upload process. 
+Please drag and drop all the meta and para folder from your own drive to Avon to complete the upload process.  
 
 <img src="https://i.imgur.com/cVigUuu.png" width="600">  
 
@@ -44,13 +52,15 @@ In the terminal:
 
   <img src="https://i.imgur.com/HPRo2OO.png" width="600">  
 
-Repeat the same process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder. 
+Repeat the same job submission process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder.  
 
-Open jt.out and locate the total energy of the system (should be around line 2700)  
+## Calculate Binding Energy  
+
+When all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700)  
 
 <img src="https://i.imgur.com/GXfQkTd.png" width="300">  
 
-## Other useful terminal commands  
+## Other Useful Terminal Commands  
 
 * Type `ls` or `ls -l` to see the list of items in the current directory
 * Type `squeue` to check all the jobs
