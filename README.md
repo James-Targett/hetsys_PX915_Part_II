@@ -1,12 +1,12 @@
 # hetsys_PX915_Part_II  
 
-## Contents
+## Contents  
 
 * [Required Software](#Required-Software)  
 * [Submit Jobs in Avon](#Submit-Jobs-in-Avon)  
 * [Calculate Binding Energy](#Calculate-Binding-Energy)  
-* [Other Useful Terminal Commands](#Other-Useful-Terminal-Commands)  
 * [Tips and Tricks](#Tips-and-Tricks)  
+  * [Other Useful Terminal Commands](#Other-Useful-Terminal-Commands)  
   * [Notepad++](#Notepad)
   * [Converting Markdown File to PDF File](#Converting-Markdown-File-to-PDF-File)  
 
@@ -81,7 +81,9 @@ The expected values are:
 
 [Back to Contents](#Contents)  
 
-## Other Useful Terminal Commands  
+## Tips and Tricks  
+
+### Other Useful Terminal Commands  
 
 * Type `ls` or `ls -l` to see the list of items in the current directory  
 * Type `squeue` to check all the jobs  
@@ -89,10 +91,6 @@ The expected values are:
   * the job number could be found in the job status  
 * Type `unzip folder name` to unzip a folder  
   * replace `folder name` with the actual name of your zip folder  
-
-[Back to Contents](#Contents)  
-
-## Tips and Tricks  
 
 ### Notepad++  
 
