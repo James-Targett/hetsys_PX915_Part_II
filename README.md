@@ -50,14 +50,11 @@ Click "Open session in PuTTY" to open the terminal
 In the terminal:  
 
 * Type in your password to login  
-    <img src="https://i.imgur.com/kBZlKfL.png" width="600">  
-* Type `cd path` to go to the correct directory  
-  * replace`path` with the actual path you have copied  
+<img src="https://i.imgur.com/kBZlKfL.png" width="600">  
+* Type `cd path` to go to the correct directory (replace`path` with the actual path you have copied)  
 * Type `sbatch job.sh` to submit a new job  
-* Type `squeue -u username`  to check job status  
-  * replace `username` with your own SCRTP username  
-
-  <img src="https://i.imgur.com/HPRo2OO.png" width="600">  
+* Type `squeue -u username`  to check job status (replace `username` with your own SCRTP username)  
+<img src="https://i.imgur.com/HPRo2OO.png" width="600">  
 
 Repeat the same job submission process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder.  
 
