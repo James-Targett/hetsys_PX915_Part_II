@@ -68,9 +68,7 @@ Take meta's AB folder as an example again, when all the calculations are complet
 
 All the $E_{AB}$, $E_{A}$ and $E_{B}$ for both meta and para could be obtained by following the same procedures.  
 
-You now could use Equation (1) to calculate the binding energy <img src="https://render.githubusercontent.com/render/math?math=\Delta E">
-![equation](https://latex.codecogs.com/gif.latex?%5CDelta%20E)
-:  
+You now could use Equation (1) to calculate the binding energy ![](https://latex.codecogs.com/gif.latex?%5CDelta%20E):  
 
 \begin{equation}
 \tag{1}
