@@ -4,7 +4,7 @@
 
 All the main software used in the Device Modelling Group can be found in [Computational Tools and Links](https://warwick.ac.uk/fac/sci/eng/research/grouplist/sensorsanddevices/nanolab/internal/tools/) (only accessible to internal group members).  
 
-If you are an external group member, please download these three desktop applications listed below as they are essential for carrying out calculations for **PX915 Part II peer-to-peer UQ exercise**:  
+If you are an external group member, please download these two desktop applications listed below as they are essential for carrying out calculations for **PX915 Part II peer-to-peer UQ exercise**:  
 
 - [Notepad++](https://notepad-plus-plus.org/downloads/)  
   - please set Notepad++ as your default text editor  
@@ -39,9 +39,10 @@ In the terminal:
 * Type `cd path` to go to the correct directory  
   * replace`path` with the actual path you have copied  
 * Type `sbatch job.sh` to submit a new job  
-* Type `squeue -u username`  to check job status
-  * replace `username` with your own SCRTP username 
-    <img src="https://i.imgur.com/HPRo2OO.png" width="600">  
+* Type `squeue -u username`  to check job status  
+  * replace `username` with your own SCRTP username  
+
+  <img src="https://i.imgur.com/HPRo2OO.png" width="600">  
 
 Repeat the same process for meta's A folder, meta's B folder, para's AB folder, para's A folder, and para's B folder. 
 
