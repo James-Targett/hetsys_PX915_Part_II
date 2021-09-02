@@ -62,18 +62,13 @@ Repeat the same job submission process for meta's A folder, meta's B folder, par
 
 ## Calculate Binding Energy  
 
-Take meta's AB folder as an example again, when all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700). This energy value is the $E_{AB}$.  
+Take meta's AB folder as an example again, when all the calculations are completed, locate "jt.out" file. Then, open "jt.out" and locate the total energy of the system (should be around line 2700). This energy value is the ![](https://latex.codecogs.com/gif.latex?E_%7BAB%7D).  
 
 <img src="https://i.imgur.com/GXfQkTd.png" width="300">  
 
-All the $E_{AB}$, $E_{A}$ and $E_{B}$ for both meta and para could be obtained by following the same procedures.  
+All the ![](https://latex.codecogs.com/gif.latex?E_%7BAB%7D), ![](https://latex.codecogs.com/gif.latex?E_%7BA%7D) and ![](https://latex.codecogs.com/gif.latex?E_%7BB%7D) for both meta and para could be obtained by following the same procedures.  
 
-You now could use Equation (1) to calculate the binding energy ![](https://latex.codecogs.com/gif.latex?%5CDelta%20E):  
-
-\begin{equation}
-\tag{1}
-\Delta E=E_{AB}-E_{A}-E_{B}
-\end{equation}  
+You now could use ![](https://latex.codecogs.com/gif.latex?%5CDelta%20E%3DE_%7BAB%7D-E_%7BA%7D-E_%7BB%7D) to calculate the binding energy ![](https://latex.codecogs.com/gif.latex?%5CDelta%20E):  
 
 The expected values are:  
 
