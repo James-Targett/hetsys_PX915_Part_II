@@ -9,6 +9,7 @@
   * [Other Useful Terminal Commands](#Other-Useful-Terminal-Commands)  
   * [Notepad++](#Notepad)
   * [Converting Markdown File to PDF File](#Converting-Markdown-File-to-PDF-File)  
+* [Supplementary Code](#Supplementary-Code)  
 
 ## Required Software  
 
@@ -104,5 +105,11 @@ Please include this line of code at the end of your Markdown files for better re
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
 ```
+
+[Back to Contents](#Contents)  
+
+## Supplementary Code  
+
+The main code that I used to combine molecules together and to plot results could be found in 'MATLAB Code' folder.  
 
 [Back to Contents](#Contents)  
